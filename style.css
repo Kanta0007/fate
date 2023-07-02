@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.servant {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.servant img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.servant h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.servant p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.servant h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.servant ul {
+  list-style: none;
+  padding: 0;
+}
+
+.servant li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+section {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.detail {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .detail {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+
+.section-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.active {
+  max-height: 5000px;
+}
+
+.clickable-header {
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.clickable-header:hover {
+  color: blue;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+  margin: 50px;
+}
+
+th {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.td1 {
+  border: 1px solid #f2f2f2;
+  padding: 5px;
+  background-color: #ddd;
+}
+
+.td2 {
+  border: 1px solid #ffffff;
+  padding: 5px;
+  background-color: #f2f2f2;
+}
+
+table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
