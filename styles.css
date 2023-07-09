@@ -9,11 +9,15 @@ header {
   background-color: #2e2022;
   text-align: center;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 600px) {
   header {
     height: 100px; 
+    margin: 0;
+    padding: 0;
   }
 }
 
